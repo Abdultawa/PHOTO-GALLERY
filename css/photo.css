@@ -1,0 +1,53 @@
+.con2{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+    padding: 30px; 
+} 
+.pht{
+    width: 30%;
+    padding: 10px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px lightblue;
+    border: none;
+    margin: 10px;
+
+
+}
+.pht1{
+    width: 20%;
+    padding: 10px;
+    height: 170px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px lightblue;
+    border: none;
+    
+
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    
+}
+.pht1:hover{
+    cursor: pointer;
+    /* opacity: 0.7; */
+    transition: 0.5s;
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9); 
+    transform: scale(0.9); 
+}
+.pht:hover{
+    cursor: pointer;
+    /* opacity: 0.9; */
+    transition: all .5s; 
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+}
+
